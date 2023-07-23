@@ -1,0 +1,552 @@
+---
+title: "Scaling up generalizability with<br>web-based citizen science"
+subtitle: "Massive Experiments Workshop, CogSci2023"
+author: "-<br>Courtney B. Hilton"
+format: 
+  revealjs:
+    theme: [styles.scss, default]
+    slide-number: true
+    template-partials:
+      - title-slide.html
+title-slide-attributes:
+  data-background-color: "#00467F"
+  data-background-size: contain
+date: 2023-07-26
+date-format: long
+title-logo: "./media/logos/auckland.png"
+---
+
+
+::: {style="text-align:center;"}
+![](media/images/tml.png){width="85%"}
+:::
+
+## Collaborators
+
+::: {.columns .incremental}
+::: {.column .fragment width="33%"}
+
+<figure>
+  <img src="./media/photos/sammehr.jpg" class="center" width="80%">
+  <figcaption>Sam Mehr</figcaption>
+</figure>
+
+:::
+
+::: {.column .fragment width="33%"}
+
+<figure>
+  <img src="./media/photos/jsimson.jpg" class="center" width="80%">
+  <figcaption>Jan Simson</figcaption>
+</figure>
+
+:::
+
+::: {.column .fragment width="33%"}
+
+... Many others
+
+:::
+:::
+
+
+## generalizability
+
+::: fragment
+::: {style="text-align:center;"}
+![](media/figures/pie_1.png){width="95%"}
+:::
+:::
+
+## generalizability {visibility="uncounted"}
+
+::: {style="text-align:center;"}
+![](media/figures/pie_2.png){width="95%"}
+:::
+
+## generalizability {visibility="uncounted"}
+
+::: {style="text-align:center;"}
+![](media/figures/pie_3.png){width="95%"}
+:::
+
+## how? {.center}
+
+# web-based citizen science {.center .bit-smaller}
+
+# web-based [citizen science]{style="color:#ebe8e8;"} {.center .bit-smaller visibility="uncounted"}
+
+---
+
+![](media/figures/scatterPlot0.png){.center}
+
+---
+
+![](media/figures/scatterPlot1.png){.center}
+
+---
+
+![](media/figures/scatterPlot2.png){.center}
+
+
+# [web-based]{style="color:#ebe8e8;"} citizen science {.center .bit-smaller}
+
+
+---
+
+
+:::: {.columns}
+::: {.column width="50%" .container-col}
+::: {.bit-smaller}
+<h2>extrinsic motivation</h2>
+:::
+
+::: {.container-col .incremental .center}
+::: {.element .fragment}
+money
+:::
+
+::: {.element .fragment}
+course-credit
+:::
+:::
+:::
+
+::: {.column width="50%" .container-col}
+::: {.bit-smaller}
+<h2>intrinsic motivation</h2>
+:::
+
+::: {.container-col .incremental .center}
+::: {.element2 .fragment}
+curiosity
+:::
+
+::: {.element2 .fragment}
+enjoyment
+:::
+
+:::
+
+:::
+::::
+
+---
+
+![](media/figures/barDemo_blank.png){.center}
+
+
+---
+
+![](media/figures/barDemo1.png){.center}
+
+---
+
+![](media/figures/barDemo2.png){.center}
+
+---
+
+![](media/figures/barDemo3.png){.center}
+
+## Implications
+
+:::: {.columns}
+::: {.column width="40%"}
+::: {style="text-align:center;"}
+![](media/figures/barDemo3.png){width="80%"}
+:::
+
+:::
+
+::: {.column width="60%" .container-col}
+::: {.container-col .incremental .center}
+::: {.element .fragment}
+scalability
+:::
+
+::: {.element .fragment}
+data quality
+:::
+
+:::
+:::
+
+::::
+
+
+## Bias?
+
+![](media/figures/scatterPlot1.png){.center}
+
+## Bias? {visibility="uncounted"}
+
+![](media/figures/scatterPlot2.png){.center}
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot2.png){width="80%"}
+
+![](media/figures/barDemo_money.png){width="80%"}
+:::
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot3.png){width="80%"}
+
+![](media/figures/barDemo_money.png){width="80%"}
+:::
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot4.png){width="80%"}
+
+![](media/figures/barDemo_money2.png){width="80%"}
+:::
+
+## Bias?
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot3.png){width="80%"}
+
+![](media/figures/barDemo_curious.png){width="80%"}
+:::
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot_tight.png){width="80%"}
+
+![](media/figures/barDemo_curious1.png){width="80%"}
+:::
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot4.png){width="80%"}
+
+![](media/figures/barDemo_curious2.png){width="80%"}
+:::
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot4.png){width="80%"}
+
+![](media/figures/barDemo_enjoy.png){width="80%"}
+:::
+
+
+## Bias? {visibility="uncounted"}
+
+::: {style="display:inline-flex;"}
+![](media/figures/scatterPlot_wide.png){width="80%"}
+
+![](media/figures/barDemo_all.png){width="80%"}
+:::
+
+---
+
+![](media/figures/long.png){.center}
+
+---
+
+{{< video media/videos/scram.mp4 >}}
+
+## Other forms of bias?
+
+::: {.container-col .incremental .center}
+::: {.element .fragment}
+activity on internet / social media
+:::
+
+::: {.element .fragment}
+...
+:::
+:::
+
+
+## Some examples {.center}
+
+## Testing generalizability across people {.center}
+
+---
+
+![](media/images/paper.png){.center}
+
+## collaborators
+
+::: {.columns .incremental}
+::: {.column .fragment width="33%"}
+
+<figure>
+  <img src="./media/photos/jingliu.jpg" class="center" width="80%">
+  <figcaption>Jingxuan Liu</figcaption>
+</figure>
+
+:::
+
+::: {.column .fragment width="33%"}
+
+<figure>
+  <img src="./media/photos/elika.jpeg" class="center" width="80%">
+  <figcaption>Elika Bergelson</figcaption>
+</figure>
+
+:::
+
+::: {.column .fragment width="33%"}
+
+<figure>
+  <img src="./media/photos/sammehr.jpg" class="center" width="80%">
+  <figcaption>Sam Mehr</figcaption>
+</figure>
+
+:::
+:::
+
+## Does the language you speak shape how you hear music? {.center}
+
+## tonal languages
+
+::: {.container-col .incremental .center}
+::: fragment
+::: {style="text-align:center;"}
+![](media/images/tones_ma.png){width="70%"}
+:::
+:::
+
+::: {.element2 .fragment}
+does natively speaking a tonal language boost melody processing?
+:::
+:::
+
+<audio class="media_example hide" controls>
+  <source src="media/audio/flat_rising_contour_falling.mp3" type="audio/mp3">
+</audio>
+
+## meta analysis
+
+::: fragment
+![](media/figures/meta_plot1.png){.center}
+:::
+
+## meta analysis {visibility="uncounted"}
+
+![](media/figures/meta_plot2.png){.center}
+
+## meta analysis {visibility="uncounted"}
+
+![](media/figures/meta_plot3.png){.center}
+
+## meta analysis {visibility="uncounted"}
+
+![](media/figures/meta3.jpg){.center}
+
+## limitations of prior studies
+
+::: {.container-col .incremental .center}
+::: {.element .fragment}
+biased sampling of few languages/countries
+:::
+
+::: {.element .fragment}
+small sample sizes
+:::
+
+::: {.element .fragment}
+poor control of musical training/experience
+:::
+:::
+
+## our experiment {.center}
+
+## a citizen science experiment
+
+<br>
+
+::: {.columns .incremental}
+::: {.fragment .center}
+https://www.themusiclab.org/
+:::
+
+<br>
+
+::: {.column .fragment width="50%"}
+<img src="./media/logos/music_lab_text.png" class="center" width="60%"/></img>
+:::
+
+::: {.column .fragment width="50%"}
+<img src="./media/images/miq.png" class="center" width="100%"/></img>
+:::
+:::
+
+## our sample
+
+![](media/figures/languages.png){.center}
+
+## experiment details
+
+::: {.container-col .center}
+::: {.element .fragment}
+three tests of musical ability
+:::
+
+::: {.container-row .incremental}
+::: {.element2 .fragment .bit-smaller .p5}
+**melodic discrimination**<br>[(Harrison et al., 2017)]{.smaller}
+:::
+
+::: {.element2 .fragment .bit-smaller .p5}
+**mistuning discrimination**<br>[(Larrouy-Maestri et al., 2019)]{.smaller}
+:::
+
+::: {.element2 .fragment .bit-smaller .p5}
+**beat discrimination**<br>[(Harrison & Müllensiefen, 2018)]{.smaller}
+:::
+:::
+
+:::
+
+## main results {visibility="uncounted"}
+
+::: fragment
+![](media/figures/tone_effects1.png){.center}
+:::
+
+## main results {visibility="uncounted"}
+
+![](media/figures/tone_effects2.png){.center}
+
+## main results {visibility="uncounted"}
+
+![](media/figures/tone_effects3.png){.center}
+
+## robustness & generalizability
+
+![](media/figures/lang-effects.png){.center}
+
+## summary
+
+::: {.container-col .incremental .center}
+::: {.element2 .fragment .bit-smaller}
+tonal speakers better at melodies
+:::
+
+::: {.element2 .fragment .bit-smaller}
+worse beat perception
+:::
+
+::: {.element2 .fragment .bit-smaller}
+robust across 54 diverse languages, ~200 countries, musical training, income, education, and other cultural predictors
+:::
+:::
+
+---
+
+## Testing generalizability across stimuli {.center .bit-smaller}
+
+---
+
+![](media/images/nhb.png){.center}
+
+## Our team
+
+![](media/ids/ids_coauthors.png){.center}
+
+## A diverse set of recordings
+
+![](media/ids/map.png){width="50%" fig-align="center"}
+
+::: {.container-row .center}
+[21 fieldsites]{.element .bit-smaller .mb2 .p2}
+[9 small-scale societies]{.element .bit-smaller .mb2 .p2} [17 languages]{.element .bit-smaller .mb2 .p2}<br> [11 language families]{.element .bit-smaller .mb2 .p2}
+[7 subsistence types]{.element .bit-smaller .mb2 .p2} [6 continents]{.element .bit-smaller .mb2 .p2}
+
+:::
+
+---
+
+![](media/ids/vocalists.png){.center}
+
+
+## can people recognise baby-talk across cultures? {.smaller}
+
+::: columns
+::: {.column .fragment .center}
+![](media/ids/ids-logo.png)
+:::
+
+::: {.column .fragment .center}
+![](media/ids/listener_map.png)
+:::
+:::
+
+
+---
+
+::: columns
+::: {.column .center .hov width="50%"}
+<img src="media/ids/baby.jpeg" class="hov"/></img>
+:::
+
+::: {.column .center .hov width="50%"}
+<img src="media/ids/adult.jpeg" class="hov"/></img>
+:::
+:::
+
+<audio class="media_example hide" controls>
+  <source src="media/ids/HAD01D.wav" type="audio/wav">
+</audio>
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column .center .hov width="50%"}
+<img src="media/ids/baby.jpeg" class="hov"/></img>
+:::
+
+::: {.column .center .hov width="50%"}
+<img src="media/ids/adult.jpeg" class="hov"/></img>
+:::
+:::
+
+<audio class="media_example hide" controls>
+  <source src="media/ids/HAD01B.wav" type="audio/wav">
+</audio>
+
+---
+
+![](media/ids/fieldsitewise.png){.center}
+
+---
+
+![](media/images/nhb2.png){.center}
+
+## Conclusion {.center}
+
+## generalizability {visibility="uncounted"}
+
+![](media/figures/pie_2.png){.center}
+
+## generalizability {visibility="uncounted"}
+
+![](media/figures/pie_3.png){.center}
+
+## thanks for your attention {.center}
+
+
+```{=html}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="zoomer.js"></script>
+<script type="text/javascript" src="audio_player.js"></script>
+```
+
+
+
+
+
+
+
